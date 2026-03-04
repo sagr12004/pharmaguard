@@ -1,0 +1,19 @@
+##fileformat=VCFv4.2
+##fileDate=20260213
+##source=ClinicalGenomicsLab_PGx_Pipeline_v3.2.1
+##reference=GRCh38.p13
+##INFO=<ID=RS,Number=1,Type=String,Description="dbSNP rsID">
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene symbol">
+##INFO=<ID=STAR,Number=1,Type=String,Description="Star allele designation">
+##INFO=<ID=FUNC,Number=1,Type=String,Description="Functional consequence">
+##INFO=<ID=CPIC,Number=1,Type=String,Description="CPIC guideline level">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read depth">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype quality">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	PATIENT_003
+chr22	42522613	rs3892097	C	T	99	PASS	RS=rs3892097;GENE=CYP2D6;STAR=*4;FUNC=splice_defect;CPIC=1A	GT:DP:GQ	1/1:75:99
+chr22	42127941	rs5030655	G	A	99	PASS	RS=rs5030655;GENE=CYP2D6;STAR=*6;FUNC=frameshift;CPIC=1A	GT:DP:GQ	0/1:52:99
+chr10	96702047	rs1057910	A	C	99	PASS	RS=rs1057910;GENE=CYP2C9;STAR=*3;FUNC=missense;CPIC=1A	GT:DP:GQ	1/1:58:99
+chr10	96709039	rs1799853	C	T	99	PASS	RS=rs1799853;GENE=CYP2C9;STAR=*2;FUNC=missense;CPIC=1A	GT:DP:GQ	0/1:63:99
+chr6	18133885	rs1800460	G	A	99	PASS	RS=rs1800460;GENE=TPMT;STAR=*3A;FUNC=missense;CPIC=1A	GT:DP:GQ	1/1:47:99
+chr1	97450058	rs3918290	C	T	99	PASS	RS=rs3918290;GENE=DPYD;STAR=*2A;FUNC=splice_acceptor;CPIC=1A	GT:DP:GQ	0/1:68:99
