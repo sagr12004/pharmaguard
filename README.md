@@ -5,21 +5,6 @@
 RIFT 2026 Hackathon | HealthTech Track | Precision Medicine
 
 
-
-\## Links
-
-\- Live Demo: \[Add after deployment]
-
-\- Demo Video: \[Add LinkedIn URL after recording]
-
-\- GitHub: https://github.com/sagr12004/pharmaguard
-
-
-
----
-
-
-
 \## Overview
 
 
